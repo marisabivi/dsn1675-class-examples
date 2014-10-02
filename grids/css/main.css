@@ -23,26 +23,12 @@ html {
     box-sizing: inherit;
 }
 
+
+h2 {
+    margin: 0;
+}
+
 img {
-	width: 100%;
+    width:100%;
     display: block;
-}
-
-.title {
-    color: red;   
-}
-
-@media only screen and (min-width: 400px) {
-    .title {
-    color:green;
-    font-size: 10rem;
-    }
-}
-
-@media only screen and (min-width: 700px) {
-    
-    .title {
-    color:blue;
-    font-size: 3rem;
-    }
 }
